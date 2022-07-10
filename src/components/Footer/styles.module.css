@@ -1,0 +1,37 @@
+.footer_container {
+    background: var(--off-white);
+    color: var(--dark-text-color);
+}
+.social_media_icons {
+    padding: 48px 0;
+    display: flex;
+    width: 25%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.copyright {
+    padding-bottom: 12px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+.info_container {
+    padding: 24px 0;
+    padding-bottom: 48px;
+}
+.address_container,
+.contact_container {
+    width: 25%;
+    margin: 0 auto;
+}
+.address_container span,
+.contact_container span {
+    display: block;
+}
+.address_container {
+    margin-bottom: 12px;
+}
+.business_title {
+    text-align: center;
+    margin: 0 auto;
+}

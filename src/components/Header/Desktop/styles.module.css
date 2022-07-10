@@ -1,0 +1,38 @@
+.header {
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    padding: 0 2.5%;
+    height: 72px;
+    background: var(--off-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 0;
+    transition: var(--cubic_bezier-transition);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 15px 40px rgba(0, 0, 0, 0.05);
+}
+.header_hidden {
+    top: -84px;
+}
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.nav {
+    margin: auto 0;
+    display: flex;
+    gap: 20px;
+}
+.logo {
+    height: 48px;
+    width: 48px;
+}
+.nav_item {
+    font-size: var(--font-size-small);
+}
+.nav a {
+    color: var(--dark-text-color);
+    text-decoration: inherit;
+}

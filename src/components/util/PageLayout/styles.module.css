@@ -1,0 +1,5 @@
+.page_wrapper {
+    width: 100%;
+    padding: 0 calc(2.5% + 30px);
+    padding-top: 72px;
+}

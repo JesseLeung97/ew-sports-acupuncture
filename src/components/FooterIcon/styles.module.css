@@ -1,0 +1,10 @@
+.icon_container {
+    height: 30px;
+    width: 30px;
+    transition: transform 0.2s ease;
+    transform: scale(1);
+}
+.icon_container:hover {
+    fill: red;
+    transform: scale(1.2);
+}

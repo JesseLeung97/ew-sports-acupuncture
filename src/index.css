@@ -1,0 +1,47 @@
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  background: #fafafa;
+  font-family: 'Helvetica Neue', arial, sans-serif;
+  font-weight: 400;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --off-white: #FBF5F3;
+  --cubic_bezier-transition: 0.5s cubic-bezier(0.9, 0, 0.1, 1);
+  --font-size-small: clamp(14px, 1.5vw, 18px);
+  --font-size-medium: clamp(18px, 2.5vw, 24px);
+  --font-size-large: clamp(24px, 3.5vw, 30px);
+  --dark-text-color: #2A222C;
+  /* --main-text-color: #28232A;
+  --main-text-color-faded: #9590A8;
+  --main-theme-color: #962340;
+  --main-highlight-color: #28232A;
+  --main-hover-color: #D782BA;
+  --main-transition: 0.3s ease-out all;
+  --title-font-size-small: clamp(24px, 2.5rem, 30px);
+  --title-font-size-medium: clamp(30px, 3.5rem, 36px);
+  --title-font-size-large: clamp(36px, 4.5vw, 42px);
+  --header-footer-width: 91.7vw;
+  --content-width: 91.7vw; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+  background-color: #673ab8;
+  color: #fff;
+}
+
+.link {
+  color: #fff;
+}
+
+
