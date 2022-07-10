@@ -1,5 +1,6 @@
 import { useLocation } from "wouter-preact";
 import routes from "../defines/routes.json";
+import { HomeTitle } from "../components/HomeTitle";
 
 const HomePage = () => {
     const [ location ] = useLocation();
@@ -8,7 +9,9 @@ const HomePage = () => {
     }
 
     return (
-        <div style={{height: "200vh"}}>Home Page</div>
+        <div style={{height: "200vh"}}>
+            <HomeTitle titleText="Ryan test title"/>
+        </div>
     );
 }
 
